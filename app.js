@@ -29,14 +29,7 @@
 
 }
 
-function reverseNumber(num) {
-    return parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num);
-}
 
-// Foydalanish
-let originalNumber = 12345;
-let reversedNumber = reverseNumber(originalNumber);
-console.log(reversedNumber); 
 
 
 
